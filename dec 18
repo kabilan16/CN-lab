@@ -3,6 +3,14 @@
 	about the first TCP SYN packet,window size,http version,IP address of server,status code, last modified HTML and 
 	no of bytes returned to the browser.
 	
+	TCP SYN packet: TCP	66	64046 → 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM=1
+	window size: 64240
+	http version: HTTP/1.1
+	IP address of server: 42.106.163.11
+	status code: 200 OK
+	last modified HTML: Sat, 18 Dec 2021 08:06:40 GMT
+	no of bytes returned to the browser: TCP Payload 248 bytes
+	
 2.	Create a simulation scenario in a topology consisting of 3 nodes A,B,C with UDP links. Consider the bandwith of the
 	link between A and C as 1Mbps, B and C as 2Mbps. Node A is generating a CBR traffic and Node B with FTP traffic.
 	Initiate CBR at t=0.5s and FTP at t=1s. Run the simulation upto 5 seconds. Compare the drop of droptail and red.
