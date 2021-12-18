@@ -1,0 +1,15 @@
+1. 	initiate a wireshark capture and generate  http traffic, create a dsiplay filter to only show packets sent 
+	and received between the workstation and the server,observe and note the information 
+	about the first TCP SYN packet,window size,http version,IP address of server,status code, last modified HTML and 
+	no of bytes returned to the browser.
+	
+2.	Create a simulation scenario in a topology consisting of 3 nodes A,B,C with UDP links. Consider the bandwith of the
+	link between A and C as 1Mbps, B and C as 2Mbps. Node A is generating a CBR traffic and Node B with FTP traffic.
+	Initiate CBR at t=0.5s and FTP at t=1s. Run the simulation upto 5 seconds. Compare the drop of droptail and red.
+
+	Read the following values for each time period of 0.5s
+	A: throughput 
+	B: packetdrop 
+	C: average packets in Q 
+	D: average time of packet in Q
+	Show the trace and graph outputs and note the analysis of the same.
